@@ -1,0 +1,135 @@
+.similartrendsheading{
+    font-size: 36px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Poppins";
+    position: relative;
+}
+
+.similartrendsheading:after {
+    position: absolute;
+    content: '';
+    width: 18%;
+    height: 1px;
+    border-bottom: 3px solid #0001f9;
+    left: 0;
+    bottom: -5px;
+}
+.similartrendswrap{
+    border: 0 !important;
+    cursor: pointer;
+    position:relative;
+}
+.similartrendstitle{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 12px 0px 10px 0px;
+}
+.similartrendscat{
+    font-size: 15px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+.similartrendsfireicon{
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    bottom: 12px;
+    right: 8px
+}
+.similartrendsfireicon img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.similartrendsimageouter{
+width:100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+border-radius:5px;
+}
+.similartrendsfiretext {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.similartrendsfiretext p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+    color: #fff;
+}
+.similartrendsimageouter{
+   position:relative;
+}
+.similartrendsbookmarkicon{
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
+.similartrendsbookmarkicon a:hover{
+    background-color: #868686;
+}
+.similartrendsbookmarkicon a{
+    width: 28px;
+    height: 30px;
+    background: #868686ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.similartrendsbookmarkicon svg{
+    color:#fff;
+    font-size: 20px;
+}
+.similartrendsactions{
+    font-size: 15px;
+    color: #868686;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.similartrendsactions:hover {
+    color: #ff2900cc;
+}
+
+@media only screen and (max-width:767px){
+    .similartrendsimageouter{
+        height:unset;
+    }
+}
+
+@media only screen and (min-width:1920px){
+    .similartrendsimageouter{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width:1800px){
+
+    .similartrendscat{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .similartrendstitle{
+        font-size: 22px;
+        line-height: 30px;
+        line-height: 25px;
+    }
+}
+
+

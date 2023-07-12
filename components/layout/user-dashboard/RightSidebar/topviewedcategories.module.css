@@ -1,0 +1,109 @@
+.liked_trends_cards{
+    border:0;
+  }
+  .image_left_info{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .likedtext_info h5{
+    font-size: 15px;
+    font-weight: 800;
+    color: #28272e;
+    margin-bottom: 0px;
+  }
+  .likedtext_info h5 a{
+    color: #28272e !important;
+    text-decoration: none;
+  }
+  .liked_trends_cardbody{
+    padding: 8px;
+  }
+  .likedtext_info h5 a:hover{
+    color: #ff2900cc !important;
+  }
+  .trends_dash_cards h5:hover
+  {
+    color: #ff2900cc !important;
+  }
+  .likedlist_info{
+    padding-left: 0px;
+    list-style:none;
+    margin-bottom: 0px;
+  }
+  .likedlist_info li{
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 5px;
+  }
+  .liked_heart_info{
+    width: 40px;
+    height: 40px;
+    min-width:40px;
+    background: #0000fe;
+    border: 1px solid #0000fe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .liked_heart_info p{
+    margin-bottom:0px;
+  }
+  
+  .liked_heart_info p svg{
+   color: #fff;
+  }
+  .image_left_info img {
+    border-radius: 6px;
+  }
+  .card_hearticontext:hover {
+    color: #ff2900cc;
+    cursor:pointer;
+  }
+  .card_eyeicontext:hover{
+    color: #ff2900cc;
+    cursor:pointer;
+  }
+  .main_cards_dash_wrapper:hover{
+    cursor: pointer;
+  }
+  .liked_trends_cards:hover{
+    cursor: pointer;
+  }
+  .top_categories_title{
+    color:#25232e;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .side_arrow_icons svg:hover{
+   cursor:pointer;
+  }
+  .image_left_info{
+    min-width: 70px;
+    width: 70px;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #5945EB, #7B6AFC);
+  }
+  .image_left_info_even{
+    min-width: 70px;
+    width: 70px;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #E14AD7, #DD437C);
+  }
+  
+  .mainliked_imagebox{
+
+  }
+  .likedlist_info li{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }

@@ -1,0 +1,16 @@
+.main_event_labels{
+    font-size:18px;
+    font-weight: 600;
+}
+
+.main_event_cards{
+    border:0 !important;
+    padding: 30px;
+}
+.event_background{
+    width:100%;
+    height: 500px;
+}
+.event_background span{
+    height:100% !important;
+}

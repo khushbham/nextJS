@@ -1,0 +1,279 @@
+.bannerSec{
+    background-image:url('/images/career-banner.png');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    padding: 4rem 0px;
+}
+.campusHead{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.campusSubHeading{
+    color: #ffff;
+    font-size: 17px;
+    line-height: 25px;
+} 
+a.ExploreBtnn {
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #0000fe;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.benefitSec{
+    padding:50px 0px;
+}
+.benefitSec h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+}
+.benefitSec p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0px;
+}
+.benefitListing{
+    box-shadow: 0px 0px 6px 1px #d7d7d7;
+    padding: 15px;
+    margin: 15px 0px;
+    border-bottom: 5px solid #0000fe;
+}
+.benefitListing h3{
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+}
+.benefitListing p{
+    color: #555555;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.jobHead,
+.testimonialSec h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+}
+.subHeading{
+   font-size: 18px;
+   line-height: 22px;
+   color:#333333;
+}
+.oppotunitiesList{
+    background: #f4f4f4;
+    padding: 10px 20px;
+}
+.oppotunitiesList h2{
+    font-size: 25px;
+    color: #333333;
+    margin: 5px 0px;
+}
+.oppotunitiesList p{
+    font-size: 15px;
+    list-style: 24px;
+    color:#333333;
+    margin:0px;
+}
+.infoText{
+    font-size: 14px;
+    color:#333333;
+    margin: 10px 0px !important;
+}
+.infoText a{
+   color: #0000fe;
+   font-weight: 600;
+   text-decoration: none;
+}
+.listWrap ul{
+    padding-left: 0px;
+    margin-bottom:0px;
+}
+.listWrap li{
+    list-style: none;
+    position: relative;
+}
+.counterWrap li span svg{
+    font-size: 18px;
+    color: #0000fe;
+}
+.counterWrap li span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.careerOuter img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.joinSec{
+    padding:50px 0px;
+}
+.testimonialSec{
+    padding-top:50px;
+}
+.JoinUsContent h1{
+    font-size: 40px;
+    line-height: 50px;
+    color:#333333
+}
+.JoinUsContent p{
+    font-size: 16px;
+    line-height: 25px;
+    color:#333333;
+}
+.counterWrap{
+    list-style: none;
+}
+.counterWrap span{
+    position:relative;
+}
+.counterWrap span:before{
+    content:'';
+    position: absolute;
+    height:2rem;
+    width:4px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background-color:#000;
+}
+.counterWrap span:after{
+    content:'';
+    position: absolute;
+    height:2rem;
+    width:4px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background-color:#000;
+}
+
+.oppotunitiesList {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+}
+.stepsList{
+    position: relative;
+    border-left: 2px solid #000 !important;
+    padding-left: 35px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    list-style: none;
+    padding-bottom:20px;
+    border-radius: 0px !important;
+}
+.stepsList:before{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    left: -18px;
+    border-radius: 50%;
+    content: '>';
+    color: #0000fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    border: 2px solid #000;
+    z-index: unset;
+    top: 60px;
+}
+.stepsList:last-child {
+    padding-bottom: 0px;
+}
+.profileImage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+.testimonialInner{
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 6px 0px #d7d7d7;
+    padding: 18px;
+    margin: 6px 35px 6px 35px;
+    align-items: center;
+}
+.details{
+    margin-left:20px;
+    text-align: left;
+}
+.details h3{
+    font-size: 19px;
+    color: #272727;
+    line-height: 25px;
+    position: relative;
+    z-index: 1;
+}
+.details h3:before {
+    position: absolute;
+    background-image: url('/images/quote-icons.jpg');
+    width: 20p;
+    width: 40px;
+    height: 40px;
+    content: '';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: -25px;
+    top: 4px;
+}
+.details p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #272727;
+    position: relative;
+    z-index: 1;
+}
+.details .userName{
+    color: #363636;
+    font-size: 12px;
+    line-height: 15px;
+}
+.LeftArrowPosition{
+    position:absolute;
+    left:0;
+    border:none;
+    background-color: transparent;
+}
+.RightArrowPosition{
+    position: absolute;
+    right:0;
+    border:none;
+    background-color: transparent;
+}
+.LeftArrowPosition svg,
+.RightArrowPosition svg{
+  font-size: 30px;
+  color:mediumblue;
+}
+
+@media only screen and (min-width:1800px){
+    .campusHead{
+        font-size:50px;
+        line-height: 60px;
+    }
+    .campusSubHeading{
+        font-size:20px;
+        line-height: 30px;
+    }
+}

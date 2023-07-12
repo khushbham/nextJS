@@ -1,0 +1,191 @@
+.trends_dash_head {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 3px solid #0000fe;
+    padding-bottom: 5px;
+}
+.card_image_section{
+    position: relative;
+}
+.card_fireicon{
+    width: 25px;
+    height: 40px;
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+}
+.card_fireicon img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit:contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    border-radius: 5px;
+}
+.card_firetext{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_firetext p{
+font-family: "Poppins";
+font-weight: 500;
+font-size: 11px;
+margin: 0;
+color: #fff;
+}
+.main_dash_trends_info{
+
+}
+.card_image_section span {
+    /* width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important; */
+  }
+
+  .card_image_section img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    /* object-fit:cover; */
+    border-radius: 15px;
+  }
+  .main_container_cards{
+    padding: 0px !important;
+  }
+  .main_cards_dash_wrapper{
+    border:0;
+    background: transparent;
+  }
+  .trends_dash_cards h5{
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 5px;
+  }
+  .trends_dash_cards h6{
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.category_card_info{
+  padding-left: 0px;
+   list-style: none;
+   margin-bottom: 0px;
+}
+.category_card_info li{
+   font-size: 13px;
+  color: #666;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 5px;
+}
+/* .top_categories_title{
+  color:#25232e;
+  font-size: 18px;
+  font-weight: 700;
+} */
+.card_hearticontext {
+    margin-right: 10px;
+    color: #6a6a6a;
+}
+.card_eyeicontext{
+    color: #6a6a6a;
+}
+.card_hearticontext svg {
+    margin-right: 5px;
+}
+.card_eyeicontext svg {
+    margin-right: 5px;
+}
+.liked_trends_cards{
+  border:0;
+}
+.image_left_info{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.likedtext_info h5{
+  font-size: 15px;
+  font-weight: 800;
+  color: #28272e;
+  margin-bottom: 0px;
+}
+.likedtext_info h5 a{
+  color: #28272e !important;
+  text-decoration: none;
+}
+.liked_trends_cardbody{
+  padding: 8px;
+}
+.likedtext_info h5 a:hover{
+  color: #ff2900cc !important;
+}
+.trends_dash_cards h5:hover
+{
+  color: #ff2900cc !important;
+}
+.likedlist_info{
+  padding-left: 0px;
+  list-style:none;
+  margin-bottom: 0px;
+}
+.likedlist_info li{
+font-size: 12px;
+color: #666;
+font-weight: 500;
+font-family: "Poppins";
+margin-bottom: 5px;
+}
+.liked_heart_info{
+  width: 40px;
+  height: 40px;
+  min-width:40px;
+  background: #0000fe;
+  border: 1px solid #0000fe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liked_heart_info p{
+  margin-bottom:0px;
+}
+
+.liked_heart_info p svg{
+ color: #fff;
+}
+.image_left_info img {
+  border-radius: 6px;
+}
+.card_hearticontext:hover {
+  color: #ff2900cc;
+  cursor:pointer;
+}
+.card_eyeicontext:hover{
+  color: #ff2900cc;
+  cursor:pointer;
+}
+.main_cards_dash_wrapper:hover{
+  cursor: pointer;
+}
+.liked_trends_cards:hover{
+  cursor: pointer;
+}
+
+@media (min-width: 1400px){
+  .cards_icon_box_text{
+    justify-content: end;
+  }
+}

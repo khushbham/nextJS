@@ -1,0 +1,121 @@
+.tabSection{
+    background-color: #313131;
+    padding:10px 0px;
+    max-height: 150px;
+}
+.tabsOuter img{
+    max-width:35px;
+    margin:0 auto;
+    height:35px;
+}
+.tabsOuter{
+    background-color: #4a4a4a;
+    padding: 13px 15px !important;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
+.tabsOuter:hover{
+  background-color: #0001f9 !important;
+}
+h3.tabHead{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size:16px;
+    color:#fff;
+    margin-bottom:0px;
+    margin-top: 10px;
+}
+.TabsList .listWrap:last-child{
+    margin-right:0px !important;
+}
+.listWrap{
+ margin-right:10px;
+ margin-bottom:10px;
+ width: 100%;
+ max-width: 140px;
+}
+.TabsList{
+    justify-content: center;
+}
+.MobilelistWrap{
+    width: 100%;
+    padding: 0px 4px;
+}
+.MobilelistWrap a:hover{
+   background-color: #0001f9;
+}
+.MobilelistWrap a{
+    text-decoration: none !important;
+    display: inline-block;
+    background-color: #4a4a4a;
+    padding: 20px 15px !important;
+    border-radius: 5px;
+    text-align: center;
+    width:100%;
+}
+.MobileView{
+    display: none !important;
+}
+.RecentViewed {
+    color: black;
+    text-decoration: none;
+    line-break: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+}
+.RecentViewedIcons {
+    text-align: right;
+    margin: 7px;
+    cursor: pointer;
+}
+.NoRecentView{
+    text-align: center;
+    font-weight: 600;
+}
+@media only screen and (min-width:1920px){
+    .TabsList .listWrap:nth-child(9){
+        margin-right:10px !important;
+    }
+    .listWrap{
+      margin-bottom:0px;
+   }
+}
+@media only screen and (max-width:1400px){
+    .desktopView{
+        display: none  !important;
+    }
+    .MobileView{
+        display: block !important;
+    }
+    .MobilelistWrap a{
+        text-decoration: none !important;
+        display: inline-block;
+        background-color: #4a4a4a;
+        padding: 15px 8px !important;
+        border-radius: 5px;
+        text-align: center;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        height: 110px !important;
+        justify-content: center;
+    }
+    h3.tabHead{
+        font-size:13px;
+    }
+}
+@media only screen and (max-width:767px){
+    .MobilelistWrap a{
+        height: 93px !important;
+    }
+    .RecentViewed {
+        -webkit-line-clamp: 2;
+    }
+}

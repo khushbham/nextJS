@@ -1,0 +1,61 @@
+.feedback_section{
+    border: 0;
+    box-shadow: 0px 10px 60px 0px rgb(10 45 97 / 10%);
+    border-radius: 10px;
+  }
+  .feedback_section_row{
+    align-items:center;
+  }
+  .suggestion_buttons{
+    background: #0000fe;
+    border-color: #0000fe;
+    padding: 12px 20px;
+    width: 100%;
+  }
+  .suggestion_buttons:focus{
+    background: #0000fe;
+    border-color: #0000fe;
+    box-shadow:none !important;
+  }
+  .suggestion_buttons:hover{
+    background: #000000;
+    border-color: #000000;
+  }
+  .suggestion_feedback_modal_send_button{
+    background: #0000fe;
+    border-color:#0000fe;
+    padding:10px 20px;
+  }
+  .suggestion_feedback_modal_send_button:focus{
+    background: #0000fe;
+    border-color:#0000fe;
+    box-shadow: none !important;
+  }
+  .suggestion_feedback_modal_send_button:hover{
+    background: #000000;
+    border-color: #000000;
+  }
+  .feedback_form input:focus{
+   box-shadow: none !important;
+  }
+  .feedback_form textarea:focus{
+    box-shadow: none !important;
+   }
+   .feedback_form textarea{
+    height: 70px !important;
+   }
+   .suggestion_feedback_modal_header button:focus{
+    box-shadow: none !important;
+   }
+  @media (min-width: 992px){
+  .suggestion_feedback_modal{
+    width: 750px;
+    max-width: 750px;
+  }
+  .suggestion_feedback_modal_header {
+    padding: 20px 30px;
+  }
+  .suggestion_feedback_modal_body{
+    padding: 20px 30px;
+  }
+  }

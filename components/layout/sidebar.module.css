@@ -1,0 +1,349 @@
+.sidebarWrap h1.slideHead {
+    font-size: 62px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: left;
+    line-height: 76px;
+
+}
+.textCenter{
+    text-align: left;
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 45px;
+}
+p.subhead{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    margin:30px 0px;
+}
+.sidebarWrap{
+    padding:23px 0px;
+    position:relative;
+}
+.linkwrap{
+    display:block;
+    text-align: left;
+}
+.IconsWrapp{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1.3px 5px 1.5px #f2f2f2;
+    text-align: center;
+    max-width: 66px;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+.linkwrap .sitebtn{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #0000fe; 
+    padding: 10px 25px;
+}
+.fireText p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+}
+.fireIcon{
+    width: 34px;
+    height: 50px;
+    position: absolute;
+    bottom: 1rem;
+    right: 20px;
+    z-index: 999;
+
+}
+.fireIcon img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.bookmarkIcon{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+.IconsWrapp a:hover svg{
+    color:#0000fe !important;
+}
+
+.bookmarkIcon svg{
+    color: #fff;
+    font-size: 20px;
+} 
+.bookmarkIcon a{
+    width: 28px;
+    height: 30px;
+    background: #868686ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fireText p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+    color: #fff;
+}
+.fireText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 12px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SliderImg{
+   width:100%;
+   height:100%;
+   object-fit:cover;
+   object-position: center;
+}
+.iconList{
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #2a2a2a !important;
+    font-size: 26px;
+}
+.tabsItems{
+    position:absolute;
+    bottom:20px;
+}
+.tabsContent{
+    background:#000;
+    padding: 10px 30px;
+    margin: 0px 10px;
+}
+.tabsContent .tabeList a.active{
+    font-size: 16px;
+    font-weight: 400;
+    background: #000 !important;
+    color: #fff;
+    border-color:transparent !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.tabsContent .tabeList a{
+    color: #808080 ;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    cursor:pointer;
+}
+.tabsContent .tabeList a.active{
+    color:#fff !important;
+}
+.tabsContent .tabeList a:hover{
+    border-color:transparent !important;
+}
+.tabsContent li{
+    padding: 0px 16px;
+
+}
+.tabsContent{
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 0px !important;
+}
+.nav-tabs .nav-item .nav-link:focus, 
+.nav-tabs .nav-item .nav-link:hover{
+    border:0px !important;
+}
+.fireImg{
+    width:30px;
+    height: 30px;
+}
+.IconsWrapp{
+    display:block;
+}
+.tabeList a.active.nav-link{
+    color:#fff !important;
+}
+.tabsRightImg{
+    padding:0px 10px !important;
+}
+
+@media only screen and (min-width:1800px){
+    .tabsContent .tabeList a{
+        font-size: 20px;
+        line-height: 30px;
+        padding:10px 5px;
+    }
+    .sidebarWrap h1.slideHead{
+        line-height: 100px;
+        font-size:95px;
+        font-weight: 600;
+    }
+    p.subhead{
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+    .linkwrap .sitebtn{
+        font-size: 20px;
+        padding: 15px 25px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .sidebarWrap h1.slideHead {
+        font-size: 45px;
+        line-height: 50px;
+}
+    p.subhead{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width:991px){
+    .textCenter {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+    p.subhead{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .IconsWrapp{
+        display:none !important;
+    }
+    .sitebtn{
+        display:inline-block;
+        margin-bottom: 20px;
+    }
+    p.sidebar_subhead__Zlcba {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width:767px){
+    p.subhead{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .innovateSliderBtn{
+        display: none;
+    }
+    .tabsContent{
+        padding:5px 0px  !important;
+    }
+    .tabsContent li {
+        padding:0px 10px !important;
+    }
+    .tabsContent li a{
+     font-size: 15px !important;
+     padding:10px !important;
+    }
+    .sitebtn{
+        display:inline-block;
+        margin-bottom: 20px;
+    }
+    .tabsRightImg{
+        padding:0px !important;
+    }    
+    
+}
+@media only screen and (max-width:567px){
+    .btnPositions{
+        bottom:10rem !important;
+        padding:6px !important;
+    }
+    .btnnextPositions{
+        bottom:13rem !important;
+        padding:6px !important;
+    }
+}
+@media only screen and (max-width:480px){
+    .slideHead {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .tabsRightImg{
+        padding:0px !important;
+    }    
+    .sidebarWrap h1.slideHead{
+        font-size:40px;
+        line-height: 42px;
+    }
+    p.subhead{
+        font-size: 14px;
+        line-height: 26px;
+        color: #444444;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: left;
+        margin: 12px 0px 30px;
+    }
+    .tabsContent{
+        padding:5px 0px  !important;
+    }
+    .tabsContent li {
+        padding:0px 2px !important;
+    }
+    .tabsContent li a{
+     font-size: 12px !important;
+     padding:6px !important;
+    }
+    .btnPositions{
+        bottom:9rem !important;
+        padding:4px !important;
+    }
+    .btnnextPositions{
+        bottom:6rem !important;
+        padding:4px !important;
+    }
+    .fireIcon {
+        width: 40px;
+        height: 48px;
+        position: absolute;
+        bottom: 1rem;
+        right: 9px;
+    }
+    .fireText{
+        font-size:10px;
+    }
+    .bookmarkIcon{
+        bottom:17px !important;
+    }
+
+}
+@media only screen and (max-width:375px){
+    .btnnextPositions{
+        bottom: 4rem !important;
+    }
+    .btnPositions{
+        bottom: 7rem !important;
+    }
+    
+
+}

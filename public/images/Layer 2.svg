@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0.168 0.016)">
+    <g id="invisible_box" data-name="invisible box" transform="translate(-0.168 -0.016)">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="36" height="36" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2" transform="translate(7.326 0.984)">
+      <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+        <path id="Path_4" data-name="Path 4" d="M31.121,9.988a4.059,4.059,0,0,0,4.121-3.994,4.123,4.123,0,0,0-8.242,0A4.059,4.059,0,0,0,31.121,9.988Zm0-5.991a2.026,2.026,0,0,1,1.478.564,1.9,1.9,0,0,1,.582,1.433,2.062,2.062,0,0,1-4.121,0,1.9,1.9,0,0,1,.582-1.433A2.026,2.026,0,0,1,31.121,4Z" transform="translate(-14.287 -1.621)" fill="#fff"/>
+        <path id="Path_5" data-name="Path 5" d="M31.121,18a4,4,0,1,0,4.121,3.994A4.059,4.059,0,0,0,31.121,18Zm0,5.991a2,2,0,1,1,2.061-2,1.9,1.9,0,0,1-.582,1.433,2.026,2.026,0,0,1-1.478.564Z" transform="translate(-14.287 -4.936)" fill="#fff"/>
+        <path id="Path_6" data-name="Path 6" d="M31.121,34a4,4,0,1,0,4.121,3.994A4.059,4.059,0,0,0,31.121,34Zm0,5.991a2,2,0,1,1,2.061-2,1.9,1.9,0,0,1-.582,1.433,2.026,2.026,0,0,1-1.478.564Z" transform="translate(-14.287 -8.32)" fill="#fff"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" fill="#fff"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(0 13.031)" fill="#fff"/>
+        <path id="Path_7" data-name="Path 7" d="M13.121,34a4,4,0,1,0,4.121,3.994A4.059,4.059,0,0,0,13.121,34Zm0,5.991a2,2,0,1,1,2.061-2,1.9,1.9,0,0,1-.582,1.433,2.026,2.026,0,0,1-1.478.564Z" transform="translate(-9 -8.32)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

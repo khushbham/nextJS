@@ -1,0 +1,656 @@
+.servicesOuter img{
+    width:100%;
+    height: 100%;
+    object-position: center;
+    object-fit:cover;
+    position: relative;
+    max-width:525px;
+    z-index:1;
+}
+/* .servicesBg{
+    position: absolute;
+    width:400px;
+    height:300px;
+    background-color: #000;
+    bottom: -20px;
+} */
+.servicesOuter{
+    position: relative;
+    text-align: right;
+}
+.servicesBanner{
+    padding:60px 0px;
+    position: relative;
+}
+.servicesBanner:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 35%;
+    height: 6px;
+    background: #000;
+}
+.inspirationSec{
+    background-color:#000;
+}
+.inspireOuter img{
+    width:100%;
+    height:100%;
+
+}
+.TrendsTag{
+    background-color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+.TrendsHead{
+    font-size: 40px;
+    line-height: 50px;
+    color:#fff;
+}
+.DailyTrends{
+    padding: 70px 0px;
+}
+.DailyTrends p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    margin: 20px 0px 15px 0px;
+}
+.trendsList{
+    padding-left:0px;
+}
+.trendsList li{
+    list-style: none;
+    border-left: 1px solid #ffff;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    position: relative;
+}
+.trendsList li:before{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    content: '';
+    left: -5px;
+    border-radius: 50%;
+    top: 7px;
+}
+.servicesMain h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+/* .servicesMain p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #444444;
+    margin: 20px 0px 0px;
+} */
+.highlightedText{
+    font-weight: 700;
+    font-size: 45px;
+}
+.StrategyImage img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.StrategySec{
+    background: url(/images/strategy-image.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.StrategyWrap h2{
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+}  
+.StrategyWrap p{
+    color: #fff;
+    font-size: 16px;
+    margin: 30px 0px;
+    line-height: 22px;
+}
+.strategyList li{
+    display: inline-block;
+}
+.strategyList{
+    margin: 0px;
+    padding-left:0px;
+    display: inline-block;
+    background: #fff;
+    padding: 5px 13px;
+}
+.strategyList li{
+    border-right: 2px solid #0b13ee;
+}
+.strategyList li a{
+    padding: 0px 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+}
+.StrategyImage{
+    margin:-20px 0px;
+}
+.strategyList li:last-child{
+    border-right: 0px;
+}
+.strategyList li:first-child{
+    padding-left:0px;
+}
+.customTrendsSec{
+    background: url(/images/hands-bg.png),#f0f0f0;
+    padding: 5rem 0px 22rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-position: bottom;
+    z-index: -1;
+}
+.TrendsBorder{
+    position: relative;
+}
+.TrendsBorder:before{
+    position:absolute;
+    content:'';
+    top:0;
+}
+.solutionsSec img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position: center;
+}
+.ImageOuter{
+    padding-left:0px;
+}
+.solutionsSec{
+    background-color: #f0f0f0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+}
+.solutionsSec:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #0b13ee;
+    max-width: 86%;
+}
+.solutionsContent{
+    padding: 0px 6rem 0px 13px;
+}
+.solutionsContent h2{
+ color: #333333;
+ font-size: 40px;
+ line-height: 50px;
+}
+.solutionsContent p{
+    color: #444444;
+    font-size: 17px;
+    line-height: 28px;
+}
+.prototypeImageSec img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: center;
+}
+.prototyping{
+    padding: 60px 0px;
+}
+.prototyping p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color:#000;
+    line-height:27px;
+}
+
+/* .customTrendsSec:after{
+    content:'';
+    background-image:url('/images/hands-bg.png');
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.customTrendsSec h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+}
+.customTrendsSec p{
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+    line-height: 25px;
+}
+.TrendsBorder{
+    position: relative;
+}
+.TrendsBorder:before{
+    position:absolute;
+    content:'';
+    width:100%;
+    height:2px;
+    top:0;
+    background-color: #0b13ee;
+}
+.trendsOuter{
+    text-align: center;
+}
+.trendsOuter h5{
+    display: inline-block;
+    padding-top: 7px;
+}
+.trendsOuter h5,
+.trendsOuter h6{
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px;
+}
+.wireOnlineSec{
+    /* background-image: url(/images/wire-img.jpg);
+    background-size: 100%;
+    min-height: 720px;
+    background-repeat: no-repeat; */
+    background-color: #0c0d11;
+    height: 100%;
+    padding-top:20px;
+}
+.WireHead{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px 0px;
+}
+.wireOnlineSec p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+}
+.consultationSec{
+    background-image:url('/images/form-outer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:80px 0px;
+    background-size: cover;
+}
+.consultSec{
+  font-size: 45px;
+  line-height: 60px;
+  color:#fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fields{
+    color: #cccccc;
+    padding:10px 12px;
+    font-size: 15px;
+    border:none;
+}
+.fields:focus{
+ box-shadow: none;
+ outline:none;
+ border:none;
+}
+.fields::placeholder{
+    color: #cccccc;
+}
+.sendbtn{
+    background: #000;
+    padding: 7px 35px;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.keynotes,
+.keynotesInfo{
+    background: #e1e1e1;
+    margin-top: 30px;
+}
+.keynotesInfo:before {
+    border: 2px solid #181ff5;
+    position: absolute;
+    content: '';
+    top: -7px;
+    right: 0;
+    left: 6rem;
+    bottom: 0;
+    border-right: 0px;
+}
+.keynotesWrap img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.keynotesWrap{
+    margin-bottom: -4rem;
+}    
+
+.contentWrap h2{
+    color: #000000;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.contentWrap p{
+    font-size: 18px;
+    margin: 0px;
+    color: #000;
+    line-height: 27px;
+}
+.keynotesInfo{
+    position: relative;
+    padding:15px;
+}
+.keynotesInfo h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+img.cultureImage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 870px;
+}
+.keynotesInfo p{
+    margin: 15px 0px;
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+    max-width: 90%;
+}
+.customCultureSec{
+    background: #2024f0;
+    padding: 50px 0px;
+}
+.cultureWrap {
+    padding: 0px 40px;
+}
+.fundamentalsec{
+    background-color:#fff;
+    padding: 40px 50px 40px 80px;
+}
+.fundamentalList{
+    padding-left:0px;
+}
+.fundamentalList li{
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0px;
+    font-weight: 400;
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+.fundamentalList li:before{
+    width: 10px;
+    height: 10px;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: #2024f0;
+    display: flex;
+    top: 10px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+.cultureHeading{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    max-width: 60%;
+    width: 100%;
+    padding-left: 50px;
+    font-weight: 700;
+}
+.cultureWrap {
+    padding: 30px 20px 30px 60px;
+}
+.cultureWrap h4 {
+    font-size: 45px;
+    color: #fff;
+    margin: 10px 0px;
+    line-height: 55px;
+}
+.cultureWrap p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0px;
+    line-height: 25px;
+}
+.fundamentalsec h2{
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #f4f4f4;
+    display: inline-block;
+}
+.bgImage img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media only screen and (min-width:1800px){
+    .fields{
+        padding:12px 10px;
+    }
+    img.cultureImage{
+        max-height: 950px;
+    }
+    .cultureWrap p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .wireOnlineSec p,
+    .contentWrap p,
+    .servicesBanner p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .fundamentalList li{
+        font-size: 23px;
+        line-height: 30px;
+        margin: 20px 0px;
+    }
+    .prototyping p,
+   .solutionsContent p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+   .customTrendsSec p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .solutionsContent{
+      padding:0px !important;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    .solutionsContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .solutionsContent h2 {
+        color: #333333;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contentWrap h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .WireOuter{
+        padding-top:60px;
+    }
+    .keynotesWrap {
+        margin-bottom: -2rem;
+    }
+    .StrategySec{
+        padding:10px 0px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .keynotesInfo:before {
+        left: 1rem;
+    }
+}
+@media only screen and (max-width:767px){
+    .servicesOuter{
+        margin-bottom: 20px;
+      }
+      .StrategyImage{
+          margin:20px 0px;
+      }
+      .StrategySec{
+          padding:10px 0px;
+      }
+      .keynotesWrap{
+          margin-bottom: 0px;
+      }
+    .keynotes,
+    .keynotesInfo{
+        background: #e1e1e1;
+        margin-top: 30px;
+        padding-bottom:30px
+    }
+    .contentWrap{
+        padding-top:20px;
+    }
+    .keynotesInfo p{
+        max-width:100%;
+    }
+    .keynotesInfo:before{
+        left:1rem;
+    }
+    .services_cultureHeading__0GsU0 {
+        font-size: 35px;
+        line-height: 40px;
+        max-width: 100% !important; 
+        width: 100%;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+    .cultureHeading{
+        max-width: 100%;
+    }
+    .fundamentalsec {
+        background-color: #fff;
+        padding: 40px 50px 40px 60px;
+    }
+}
+@media only screen and (max-width:567px){
+    .prototypingContent{
+        padding:20px 0px;
+    }
+    .customTrendsSec{
+        padding: 5rem 0px 13rem;
+    }
+    .fundamentalsec{
+        padding:30px 30px;
+    }
+   .cultureHeading {
+        font-size: 40px;
+        line-height: 45px;
+        max-width: 100% !important;
+        padding-left: 20px;
+    }
+    .cultureWrap{
+        padding: 30px 20px 30px 35px;
+    }
+    .solutionsContent{
+        padding: 20px 0rem 0px 13px;
+    }
+    .prototyping{
+        padding:20px 0px;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    .servicesMain h1 {
+        font-size: 35px;
+        line-height: 46px;
+        color: #000;
+    }
+    .TrendsTag{
+        font-size: 28px;
+        padding:2px 15px;
+    }
+    .TrendsHead {
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .StrategyWrap h2 {
+        font-size: 36px;
+        color: #fff;
+        line-height: 49px;
+    }
+    .strategyList li a {
+        padding: 0px 5px;
+        font-size: 15px;
+    }
+    .consultSec {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .fundamentalsec{
+        padding:40px 50px !important;
+    }
+    .cultureHeading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .fundamentalsec{
+        padding: 40px 20px !important;
+    }
+    .fundamentalsec h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 20px;
+        border-bottom: 4px solid #f4f4f4;
+        display: inline-block;
+    }
+    .consultSec {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

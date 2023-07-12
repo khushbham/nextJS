@@ -1,0 +1,71 @@
+.annual_reports_cards{
+    background: #fff;
+    padding: 35px;
+}
+.reports_image_sect{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.reports_image_sect span{
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
+    display: block !important;
+}
+.reports_image_sect img{
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
+}
+.annual_reports_details{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.annualreports_title{
+ font-weight: 600;
+}
+.annualreports_subtitle{
+
+}
+.annualreports_description{
+
+}
+.download_reports_button{
+background: #0000fe;
+border-color:#0000fe;
+padding:10px 20px;
+}
+.download_reports_button:focus{
+box-shadow:unset !important;
+background: #0000fe;
+border-color:#0000fe;
+}
+.download_reports_button:hover{
+    background: #000000;
+    border-color:#000000;
+}
+.listreportbutton:focus{
+    box-shadow:unset !important;
+}
+.gridreportbutton:focus{
+    box-shadow:unset !important;
+  }
+
+.listreportbutton{
+  background: #313131;
+  border-radius: 0px;
+  border-color: #4a4a4a;
+  }
+  .listreportbutton svg{
+   font-size: 30px;
+  }
+  .gridreportbutton svg{
+    font-size: 30px;
+  }
+.gridreportbutton{
+    background: #313131;
+    border-radius: 0px;
+    border-color: #4a4a4a;
+}
+
+  

@@ -1,0 +1,57 @@
+.pink_card_info{
+    background: -webkit-linear-gradient(to bottom, #E14AD7, #DD437C);  
+    background: linear-gradient(to bottom, #E14AD7, #DD437C); 
+    border:0;
+    border-radius: 10px;
+    }
+    .seagreen_card_info{
+    background: -webkit-linear-gradient(to bottom, #45B9D6, #0CC3B7);  
+    background: linear-gradient(to bottom, #45B9D6, #0CC3B7); 
+    border:0;
+    border-radius: 10px;
+    }
+    .violet_card_info{
+    background: -webkit-linear-gradient(to bottom, #5945EB, #7B6AFC);  
+    background: linear-gradient(to bottom, #5945EB, #7B6AFC); 
+    border:0;  
+    border-radius: 10px; 
+    }
+    .view_info h5{
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+     }
+     .view_info h3{
+         color: #fff;
+         font-weight: 600;
+         font-size: 26px;
+     }
+     .icon_info{
+         background: #e5effb;
+         width: 50px;
+         height: 50px;
+         min-width: 50px;
+         border: 1px solid #e5effb;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-right: 15px;
+     }
+     .icon_eyeinfo{
+         color: #9866d7;
+     }
+     .icon_heartinfo{
+         color: #405ddb;
+     }
+     .icon_notifyinfo{
+         color: #6226dd;
+     }
+     .upper_percentinfo{
+         color: #fff !important;
+         font-size: 15px;
+         font-weight: 400;
+     }
+     .subscription_link:hover{
+      cursor:pointer;
+     }

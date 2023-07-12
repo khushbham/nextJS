@@ -1,0 +1,133 @@
+.populartrendsheading{
+    font-size: 36px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Poppins";
+    position: relative;
+}
+
+.populartrendsheading:after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 1px;
+    border-bottom: 3px solid #0001f9;
+    left: 0;
+    bottom: -5px;
+}
+.populartrendstitle{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 12px 0px 10px 0px;
+}
+.trendsWrap{
+    border: 0 !important;
+    cursor: pointer;
+    position:relative;
+}
+.populartrendscat{
+    font-size: 15px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+.popularfireicon{
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    bottom: 12px;
+    right: 8px
+}
+.popularfireicon img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.popularimageouter{
+width:100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+border-radius:5px;
+}
+.popularfiretext {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popularfiretext p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+    color: #fff;
+}
+.popularimageouter{
+   position:relative;
+}
+.popularbookmarkicon{
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
+.popularbookmarkicon a:hover{
+    background-color: #868686;
+}
+.popularbookmarkicon a{
+    width: 28px;
+    height: 30px;
+    background: #868686ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popularbookmarkicon svg{
+    color:#fff;
+    font-size: 20px;
+}
+.popularactions{
+    font-size: 15px;
+    color: #868686;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.popularactions:hover {
+    color: #ff2900cc;
+}
+
+@media only screen and (max-width:767px){
+    .popularimageouter{
+        height:unset;
+    }
+}
+
+@media only screen and (min-width:1920px){
+    .popularimageouter{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width:1800px){
+
+    .populartrendscat{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .populartrendstitle{
+        font-size: 22px;
+        line-height: 30px;
+        line-height: 25px;
+    }
+}

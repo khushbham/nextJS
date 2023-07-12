@@ -1,0 +1,462 @@
+.postTagList li{
+    display: inline-block;
+}
+.postTagList{
+    padding-left:0px !important;
+}
+.postTagList li a{
+    font-size: 16px;
+    line-height: 29px;
+    color: #666666;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-decoration: none;
+    padding-right: 20px;
+}
+.PostDescriptionWrap p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.typoHead{
+    font-size: 45px;
+    line-height: 40px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin-top: 30px;
+}
+.subHeading{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 30px 0px;
+}
+.statesWrap ul{
+    padding-left:0px;
+}
+.statesWrap li{
+    font-size: 13px;
+    line-height: 25px;
+    color: #444444;
+    font-weight: 400;
+    font-family: "Poppins";
+    list-style:none;
+    margin:0px;
+}
+.viewList{
+    border-right:1px solid #d7d7d7;
+    padding:0px 3px;
+}
+
+.viewList:first-child{
+    padding-left:0px !important;
+}
+.viewList:last-child{
+    border-right:0px;
+}
+.stateHead{
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.CardsText{
+    border-radius: 6px;
+    background-color: #f7f7f7;  
+    padding:20px 15px 20px;
+
+}
+.CardsText p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+.downloadBtn:focus{
+    box-shadow: none;
+    outline: none;
+}
+.downloadBtn{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    border-radius: 5px;
+    background-color: #0000fe;
+    border: 2px solid #0000fe;
+    padding: 10px 20px;
+}
+.downloadBtn:hover,
+.downloadBtn:focus{
+    background-color: #0000fe;
+    border-color: #0000fe;
+    outline:none;
+    box-shadow: none;
+}
+.viewList svg{
+    margin-right:2px;
+}
+.InsightsHead{
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.cultureCampus{
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.CulturefireIcon img{
+    position: relative;
+}
+.CulturefireIcon{
+    position: relative;
+}
+.CulturefireIcon .fireText{
+    position: absolute;
+    left:0;
+    right:0;
+    top:18px;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CulturefireIcon .fireText p{
+    font-size: 36px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+.imageOuter img{
+    width: 100%;
+    height: 100%;
+}
+.InsightsHead{
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-bottom: 1px solid #d7d7d7b3;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: inline-block;
+}
+.downloadBtn svg g{
+    fill:#ffffff !important;
+    color:#ffff !important;
+}
+.downloadBtn svg{
+    font-size: 25px;
+}
+.imageOuter{
+    max-width: 187px;
+    margin: 0 auto;
+    height: 158px;
+  }
+  .CompasssHead{
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-bottom: 1px solid #d7d7d7b3;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: inline-block;
+  }
+  .insights_descrii{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+  }
+  .reflectBtn_compass{
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #099fff;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px !important;
+  }
+.reflectBtn_compass svg{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+  .dareBtn_compass{
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 0;
+    justify-content: center;
+    background-color: #6bd340;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px !important;
+  }
+  .dareBtn_compass svg{
+    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  }
+  .leapBtn_compass{
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    background: #cc0033;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 7px;
+    margin-bottom: 15px !important;
+  }
+  .leapBtn_compass svg{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .sparkBtn_compass{
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background: #f98592;
+    border-radius: 50%;
+    align-items: center;
+    margin-bottom: 15px !important;
+  }
+  .sparkBtn_compass svg{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .focusBtn_compass{
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    background: #f2f33b;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 7px;
+    margin-bottom: 15px !important;
+  }
+  .focusBtn_compass svg{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .gender_info b{
+   color:#333 !important;
+  }
+  .gender_info b {
+    margin-bottom: 0px !important;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: "Poppins";
+}
+  .age_info b{
+    color:#333 !important;
+    margin-bottom: 0px !important;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: "Poppins";
+  }
+  .descrp_geography b{
+    color:#333 !important;
+    margin-bottom: 0px !important;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: "Poppins";
+  }
+    .compassInner_colm{
+     text-align: center;
+    }
+.blw_divider{
+    width: 100%;
+    height: 1px;
+    background: #e7e7e7;
+    margin: 15px 0px;
+}
+@media (min-width:768px) and (max-width:1300px){
+    .reflectBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .dareBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .leapBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .sparkBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .focusBtn_compass{
+        width:40px;
+        height:40px;
+    }
+}
+@media (min-width:1200px) and (max-width:1313px){
+}
+  @media only screen and (min-width:1800px){
+    .gender_info b{
+        font-size: 15px !important;
+        line-height: 30px !important;
+    }
+    .age_info b{
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+  .descrp_geography b{
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+    .insights_descrii {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .downloadBtn{
+        padding: 20px 20px;
+    }
+    .PostDescriptionWrap p{
+        font-size: 18px;
+        line-height: 32px;
+        color: #333333;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+    .statesWrap li{
+        font-size: 15px;
+        line-height: 30px;
+    
+    }
+  }
+  @media only screen and (max-width:767px){
+    .cultureCampus {
+        padding: 20px 10px;
+    }
+    .compassInner_icons{
+        display: flex !important;
+        margin: 20px 0px;
+    }
+    .reflectBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .dareBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .leapBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .sparkBtn_compass{
+        width:40px;
+        height:40px;
+    }
+    .focusBtn_compass{
+        width:40px;
+        height:40px;
+    }
+  }
+  @media only screen and (max-width:480px){
+    .age_info_spn{
+        font-size: 14px !important;
+        line-height: 25px;
+    }
+    .gender_info span{
+        font-size: 14px !important;
+        line-height: 25px;
+    }
+    .descrp_geography span{
+        font-size: 14px !important;
+        line-height: 25px;
+    }
+    .cultureCampus {
+        padding: 20px 10px;
+    }
+    .downloadBtn{
+      text-align: center;
+      display: block;
+      margin-top: 20px !important;
+    }
+    .subHeading{
+        margin-top:0px !important;
+    }
+    .imageOuter{
+        max-width: 150px;
+        margin: 0 auto;
+        height: 140px;
+    }
+    .PostDescriptionWrap p{
+        font-size: 14px;
+        line-height:25px;
+    }
+  }

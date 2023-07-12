@@ -1,0 +1,80 @@
+.user_liked_cards{
+  height:100%;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.categoryList li{
+    display: inline-block;
+    border-right: 1px solid #d7d7d7;
+    padding: 0px 6px;
+    margin: 4px 0px;
+}
+.categoryList li:first-child{
+    padding-left:0px;
+}
+.categoryList li:last-child{
+    border-right:0px;
+}
+.categoryList{
+    margin: 0px;
+    padding-left:0px;
+}
+
+.user_liked_cards img {
+    border-radius: 10px 10px 0px 0px !important;
+}
+.margin_bottom_columns{
+    margin-bottom: 25px;
+}
+.user_liked_cards_title{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.user_liked_cards_title a:hover {
+    color: #ff2900cc !important;
+}
+
+.user_liked_cards_title a{
+    text-decoration: none;
+    color:#272727;
+}
+
+.user_liked_cards:hover{
+    cursor:pointer;
+}
+.pagination_area_trends nav ul{
+ justify-content:center;
+ margin-top: 1rem;
+}
+/* .pagination_area_trends nav ul li a.page-link{
+   color: #0000fe !important;
+} */
+.pagination_area_nav ul li a span{
+    color: #0000fe !important;
+ }
+ .pagination_area_nav ul li a{
+    color: #0000fe !important;
+ }
+ .likedtrends_icon svg{
+      fill: #0000fe !important;
+ }
+ .savedtrends_icon svg{
+    fill: #0000fe !important;
+}
+.savedtrends_icon{
+ margin-left:10px;
+}
+ @media (min-width:992px) and (max-width:1024px){
+    .user_liked_cards_category{
+        font-size:12px;
+    }
+ }
+ 

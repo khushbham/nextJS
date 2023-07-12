@@ -1,0 +1,275 @@
+.innovateSec{
+    background: #fbfbfb;
+    padding: 70px 0px;
+    position: relative;
+}
+.slideHead{
+    font-size: 36px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.SlideLeftsec{
+    text-align: left;
+    padding: 0px 15px;
+}
+/* .slideHead:after{
+    background: #3233f9;
+    content: '';
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    top: 24px;
+    right: -5rem;
+} */
+.slideText{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    margin-bottom:0px;
+    padding: 30px 0px;
+    max-width: 500px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.sitebtn{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0001f9;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    display: block;
+    text-decoration: none;
+}
+.innnovateSlides{
+    align-items:center;
+}
+.innnovateSlides a{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0001f9;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    display: block;
+    text-decoration: none;
+}
+.innovateSliderWrapp{
+    position: relative;
+}
+.innovateSliderWrapp img{
+    height: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+.icontext{
+    font-size: 14px;
+    color: #868686;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0px 20px 0px 0px;
+}
+
+.fireText p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+}
+.fireIcon{
+    width: 34px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+}
+.fireIcon img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position: relative;
+}
+.bookmarkIcon{
+    position: absolute;
+    top: 25px;
+    right: 12px;
+}
+.bookmarkIcon svg{
+    color: #fff;
+    font-size: 20px;
+} 
+.bookmarkIcon a{
+    width: 28px;
+    height: 30px;
+    background: #868686ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fireText p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+    color: #fff;
+}
+.icontext svg{
+    font-size: 16px;
+}
+.fireText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 12px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SliderImg{
+   width:100%;
+   height:100%;
+   object-fit:cover;
+   object-position: center;
+   padding: 0px 3px;
+}
+.innovateWrap{
+    text-align: left !important;
+}
+.carousel .control-next.control-arrow{
+    left:0px !important
+}
+.carousel.carousel-slider .control-arrow:hover{
+    background-color:transparent;
+}
+.sliderArrows{
+    background-color:#000;
+}
+.carousel .control-next.control-arrow{
+    left:0px !important;
+}
+.silderNextArrow{
+    position: absolute;
+    right:0px  !important
+}
+.silderprevArrow{
+    position: absolute;
+    bottom:0px;
+    margin:0px 10px;
+    
+}
+.innovateSec{
+  position: relative;
+}
+.icontext svg{
+    margin-right: 3px;
+}
+.innnovateSlides a{
+    text-decoration: underline;
+}
+.icontext:hover {
+    color: #ff2900cc;
+}
+@media only screen and (min-width:1800px){
+    .icontext svg{
+        margin-right: 8px;
+    }
+    .icontext{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .icontext svg{
+        font-size:22px;
+    }
+    .innnovateSlides a{
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 3rem;
+    }
+    .slideText{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .icontext{
+        font-size: 20px !important;
+        line-height: 25px;
+    }
+    .slideHead{
+        font-size: 45px;
+        max-width: 100%;
+        line-height: 55px;
+    }
+   
+}
+@media only screen and (max-width:1400px){
+    .innovateSliderWrapp{
+        height: 400px;
+      }
+}
+@media only screen and (max-width:1200px){
+    .slideHead{
+        font-size:45px;
+    }
+}
+@media only screen and (max-width:767px){
+    .innovateSec{
+        margin-top:20px;
+    }
+    .sliderbtns{
+        display:none;
+    }
+    .sliderArrows .control-dots{
+      display: none;
+    }
+}
+@media only screen and (max-width:480px){
+    .innovateSec{
+        background: #fbfbfb;
+        padding: 50px 0px 30px 0px;
+        position: relative;
+    }
+    .fireIcon{
+        bottom:0px;
+    }
+    .SlideLeftsec{
+      height:200px;
+    }
+    .innovateSliderWrapp{
+        height:300px !important;
+        margin-bottom: 22px;
+    }
+    .innovateSec .SliderImg{
+        position: relative;
+        margin-top:20px;
+    }
+    .slideHead{
+        font-size:20px;
+    }
+    .slideHead:after{
+        left:0px;
+        top:unset;
+        bottom:-7px;
+    }
+    .slideText{
+        font-size:13px;
+        padding:20px 0px 5px;
+    }
+}

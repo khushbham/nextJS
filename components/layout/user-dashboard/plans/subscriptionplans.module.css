@@ -1,0 +1,112 @@
+.subscription_heading{
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+}
+.subtitle_plansarea p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.pink_header_section{
+    background: -webkit-linear-gradient(to bottom, #E14AD7, #DD437C);  
+    background: linear-gradient(to bottom, #E14AD7, #DD437C); 
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+.green_header_section{
+    background: -webkit-linear-gradient(to bottom, #45B9D6, #0CC3B7);  
+    background: linear-gradient(to bottom, #45B9D6, #0CC3B7); 
+    padding: 25px 0px;
+    border-radius: 10px;
+}
+.violet_header_section{
+    background: -webkit-linear-gradient(to bottom, #5945EB, #7B6AFC);  
+    background: linear-gradient(to bottom, #5945EB, #7B6AFC); 
+    padding: 25px 0px;
+    border-radius: 10px;
+}
+.plans_cards_section{
+    height: 100%;
+    border:0px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 60px 0px rgb(10 45 97 / 10%) !important;
+}
+.pricing_header{
+    text-align: center;
+    margin-bottom: 0px;
+    /* padding: 20px 0px 0px 0px; */
+    color: #fff;
+    text-transform: uppercase;
+}
+.pricing_money{
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.pricing_money_span{
+    font-size: 20px !important;
+}
+.main_content_area{
+
+}
+.get_a_quote_btn_area{
+    text-align: center;
+}
+.get_a_quote_btn{
+    background: #0000fe;
+    border-color: #0000fe;
+}
+.get_a_quote_btn:hover{
+   background: #000;
+}
+.main_plancontent_area h6{
+  margin-bottom: 15px;
+}
+.check_area svg{
+ margin-right: 10px;
+ color: #58a738;
+}
+
+.check_area{
+    margin-bottom: 10px;
+}
+.getaquote_button{
+    text-align: center;
+    margin: 20px 0px;
+}
+.plan_disabled_button{
+    text-align: center;
+    margin: 20px 0px;
+}
+.getaquote_button button{
+    background: #0000fe;
+    border-color: #0000fe;
+    padding: 10px 30px;
+}
+
+.getaquote_button button:focus{
+    background: #0000fe;
+    border-color: #0000fe;
+}
+.getaquote_button button:hover{
+    background: #000;
+    border-color: #000;
+}
+
+.plan_disabled_button button{
+    background: #2e2e2e !important;
+    opacity: 1 !important;
+    padding: 10px 30px;
+}
+
+.plan_disabled_button button:focus{
+    background: #2e2e2e !important;
+    border-color: #2e2e2e !important;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .pricing_money{
+       font-size: 20px;
+    }
+}

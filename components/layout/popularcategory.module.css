@@ -1,0 +1,42 @@
+.Popularheading{
+    font-size: 36px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Poppins";
+    position: relative;
+}
+
+.Popularheading:after {
+    position: absolute;
+    content: '';
+    width: 18%;
+    height: 1px;
+    border-bottom: 3px solid #0001f9;
+    left: 0;
+    bottom: -5px;
+}
+.categoryWrap {
+    border: 0 !important;
+    cursor: pointer;
+}
+.categorytitles{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 12px 0px 10px 0px;
+}
+.categoryname{
+    font-size: 15px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width:480px){
+    .Popularheading{
+        font-size:24px;
+    }
+
+}

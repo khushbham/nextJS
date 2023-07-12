@@ -1,0 +1,52 @@
+.user_saved_cards{
+    height:100%;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+}
+.savedmargin_bottom_columns{
+    margin-bottom:25px;
+}
+.user_saved_cards_title{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.user_saved_cards_title a{
+text-decoration: none;
+color: #272727;
+}
+.user_saved_cards_title a:hover{
+color: #ff2900cc !important;
+}
+.saved_trends_cards_image img{
+border-radius: 10px 10px 0px 0px !important;
+}
+.saved_trends_cards_image:hover{
+    cursor:pointer;
+}
+.pagination_area_savedtrends{
+
+}
+.pagination_area_savednav ul{
+  justify-content: center;
+}
+
+.pagination_area_savednav ul li a span{
+    color: #0000fe !important;
+ }
+ .pagination_area_savednav ul li a{
+    color: #0000fe !important;
+ }
+ .savedtrends_icon svg{
+      fill: #0000fe !important;
+ }
+ .savedtrends_icon{
+   margin-left:10px;
+ }

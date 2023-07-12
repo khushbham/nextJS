@@ -1,0 +1,94 @@
+.icons{
+    display: flex;
+    margin-bottom: 5px;
+}
+.icons a{
+    color: #868686;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.icons a:hover{
+    color:ff2900cc;
+}
+
+.icons a:hover{
+    color: #df1b49;
+}
+.replybtn{
+    font-size: 15px;
+    color: #0000fe;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.reviewtext{
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 10px 0px 20px;
+}
+.reviewhead{
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0px;
+}
+.text{
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+    font-weight: 200;
+    font-family: "Poppins";
+}
+.addmore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addmore svg{
+    font-size: 30px !important;
+    color: #4c4c4c;
+}
+.clientImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rowOuter{
+  margin-left:4rem;
+  margin-top:20px;
+}
+.ReviewBorder{
+    border-bottom:1px solid #d7d7d7;
+}
+.ReviewBorder:last-child{
+    border:0px;
+    padding-bottom:0px;
+}
+@media only screen and (min-width:1800px){
+    .icons{
+        font-size: 20px !important; 
+    }
+    .replybtn{
+        font-size: 18px;
+    }
+    .icons a{
+        font-size: 20px;
+    }
+    .reviewhead{
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width:480px){
+    .rowOuter{
+        margin-left:0px;
+    }
+}

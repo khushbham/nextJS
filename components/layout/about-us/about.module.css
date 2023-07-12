@@ -1,0 +1,391 @@
+.AboutUsSec{
+    width: 100%;
+    height: 100%;
+    padding: 80px 0px;
+    background-color:#000;
+    background-image: url('/images/about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftSec{
+    margin-top:-3rem;
+}
+.aboutContent{
+    margin-bottom:-10rem;
+}
+.aboutContent img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.aboutBanner img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.whoWeAreSec{
+    background-color:#333333;
+    margin: 80px 0px;
+}
+.AboutHead{
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 55px;
+}
+.subHeading{
+    font-size: 20px;
+    line-height: 30px;
+    color:#fff;
+}
+.learnBtn,
+.learnBtn:hover{
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #0000fe;
+    padding: 14px 60px;
+    display: inline-block;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.ourMissionSec{
+    padding:80px 0px;
+    background-color: #000;
+}
+.Heading{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 34px;
+    padding-left: 20px;
+    position: relative;
+}
+.whoWeAreSec .Heading:after{
+    content:'';
+    position: absolute;
+    height:4px;
+    width:100%;
+    left:20px;
+    max-width:80%;
+    bottom:0px;
+    background-color: #fff;
+}
+.leftSec p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 23px;
+    padding: 27px 30px 20px 0px;
+}
+.aboutContent .paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.ImageInner{
+    height: 292px;
+}
+.ImageInner .Valueimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.leftSec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ImageOuter .ValueHead{
+   color:#333333;
+   font-size:18px;
+   line-height: 22px;
+   margin-top:10px;
+}
+.paragraph{
+    color:#666666;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 26px;
+}
+.missionWrap img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.missionWrap{
+    height: 500px;
+}
+.awardsSec{
+    background-image: url('/images/trends-bg.gif');
+    padding: 2rem 0px;
+    background-size: cover;
+    height: 100%;
+    background-size:cover;
+    position: relative;
+    margin: 4rem 0px;
+}
+.valuesOuterSec h2{
+    color: #333333;
+    font-size: 22px;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+.sectionWrap{
+    background: #f2f2f2 !important;
+}
+/* .AboutMain{
+    background: #f2f2f2;
+} */
+.valuesOuterSec p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 22px;
+}
+.valuesOuterSec{
+    margin-bottom: 50px;
+}
+.awardsSec:before{
+    content: "";
+    position: absolute;
+    background: #0001f9c4;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    top: 0;
+}
+.awardsSec li{
+    font-size: 16px;
+    line-height: 34px;
+    color: #fff;
+    list-style: none;
+    margin: 6px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ourMissionSec img{
+   width:100%;
+   height:100%;
+   object-position: center;
+   object-fit: cover;
+}
+
+.ourMissionSec h3{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.awardsSec li svg{
+    font-size: 20px;
+}
+.awardsSec ul{
+    padding-left:0px;
+}
+.missionList li{
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    list-style: none;
+    margin: 6px 0px;
+}
+.missionList li:before {
+    position: absolute;
+    content: '';
+    background-image: url(/_next/static/media/arrow.a775b38e.png);
+    width: 20px;
+    height: 20px;
+    left: -28px;
+    background-repeat: no-repeat;
+    top: 8px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.valuesOuterSec img{
+    width:100%;
+    height:100%;
+    object-position: center;
+    object-fit: cover;
+}
+.bannerContent{
+    padding:0px 30px;
+}
+.ourValueSec{
+    background-color: #f2f2f2;
+    padding: 30px 0px;
+}
+.TeamHeading{
+    color:#333333;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.ourValueSec h3{
+    color:#333333;
+    text-align: center;
+    font-size: 45px;
+    line-height: 50px;
+    padding-left:0px;
+}
+.TeamSec{
+    padding:60px 0px;
+}
+.missionHead{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    position: relative;
+    padding-left: 20px;
+}
+.missionHead:before{
+   content:'';
+   position:absolute;
+   left:0;
+   width:6px;
+   height: 100%;
+   background-color:#092ade;
+   top:0;
+}
+.missionContent p{
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 0px;
+}
+.misionList li{
+    color: #ffff;
+    font-size: 16px;
+    list-style: none;
+    position: relative;
+    margin: 10px 0px;
+}
+.misionList li:before{
+    content: "";
+    background-image: url('/images/check-mark-white.png');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left: -34px;
+    background-repeat: no-repeat;
+}
+.highlightedText{
+    font-weight: 800;
+    display: block;
+}
+@media only screen and (min-width:1800px){
+    .paragraph {
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #333333;
+    }
+    .missionContent p {
+        font-size: 20px;
+        color: #fff;
+        margin: 20px 0px;
+        line-height: 30px;
+    }
+    .misionList li {
+        font-size: 20px;
+        margin: 10px 0px;
+        line-height: 33px;
+    }
+    .subHeading{
+        font-size: 24px;
+        line-height: 35px;
+        color: #fff;
+        margin: 29px 0px;
+    }
+    .AboutHead{
+        font-size: 70px;
+        line-height: 80px;
+        font-weight: 600;
+    }
+    .Heading{
+        font-size:50px !important;
+        line-height:60px !important;
+    }
+    .paragraph{
+        font-size: 24px !important;
+        line-height: 40px !important;
+        color: #333333;
+    }
+    .ValueHead{
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .ImageOuter .paragraph{
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+    .missionList li {
+        font-size: 25px !important;
+        line-height: 40px !important;
+        margin: 12px 0px !important;
+    }
+    .awardsSec li{
+        font-size: 20px;
+        line-height: 40px;
+        margin: 11px 0px;
+    }
+    .awardsSec li svg{
+        font-size: 30px;
+    }
+    .ourMissionSec h3{
+        margin: 20px 0px;
+    }
+}
+@media only screen and (max-width:480px){
+    .TeamContent{
+        padding: 20px 0px;
+    }
+    .TeamHeading{
+        font-size: 40px;
+        list-style: 45px;
+    }
+    .learnBtn, 
+    .learnBtn:hover{
+        padding:12px 50px;
+    }
+    .ourValueSec{
+        padding-top:6rem;
+    }
+    .AboutHead {
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .subHeading {
+        font-size: 18px;
+        line-height: 30px;
+        color: #fff;
+    }
+    .awardsSec li {
+        font-size: 14px;
+        line-height: 32px;
+        color: #fff;
+        list-style: none;
+        margin: 6px 0px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .header_btns a{
+        padding-left:0px !important;
+    }
+}
+@media only screen and (max-width:375px){
+    h3.tabHead {
+        font-size: 11px;
+    }
+    .MobilelistWrap a{
+        height: 80px;
+    }
+}

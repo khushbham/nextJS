@@ -1,0 +1,435 @@
+.links a{
+    font-size: 16px;
+    color: #000 !important;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.links a:hover{
+    color:#0001f9 !important;
+}
+.btns .btn{
+    border-radius: 4px;
+    background-color: #f2f3f5;
+    padding:10px 20px;
+    font-family: "Poppins";
+    color: #000 !important;
+    margin:0px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btns .btn:hover{
+    border-radius: 4px;
+    background-color: #0001f9;
+    color:#fff;
+}
+.btns .btn:last-child{
+    margin:0px;
+}
+.btns{margin:0px 10px;}
+/* .linklist {
+    margin-right: 10px;
+} */
+.links a{
+    padding:0px 13px !important;
+    text-decoration : none !important;
+}
+
+.searchForm {
+    width: 100%;
+    max-width: 400px;
+}
+.searchField{
+    border-radius: 0px 4px 4px 0px !important;
+    background-color: #ffffff !important;
+    /* border: 1px solid rgba(237,238,239,0.75) !important; */
+    padding:6px 0px !important;
+    border-left:0px !important;
+    border:0px;
+}
+.searchForm{
+    border: 1px solid #4a4a4a9e !important;
+    border-radius: 2px;
+}
+.searchField::placeholder {
+    font-size: 18px;
+    line-height: 20px;
+}
+.searchField:focus{
+    box-shadow: none !important;
+}
+.searchField::placeholder{
+    font-size: 15px;
+    color: #838383;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.searchIcon{
+    background-color: #fff !important;
+    /* border: 1px solid rgba(237,238,239,0.75) !important;
+    border-right:0px !important; */
+    border:0px;
+}
+.searchIcon svg{
+    color: #909090;
+    font-size: 21px;
+}
+.mobileHeader{
+    display:none  !important;
+}
+.mobileHeader button.togglerIcon{
+    background-image: url('/images/list.png') !important;
+    background-size: 100%;
+    width: 37px;
+    height: 37px;
+    background-repeat: repeat;
+}
+.mobileHeader button.togglerIcon:focus{
+    box-shadow: none;
+}
+.headerLogo{
+    height: 69px;
+}
+.headerLogo img{
+  width:100%;
+  height:100%;
+}
+button.togglerIcon .showMenu.collapse.show{
+    background-image: url('/images/close.png') !important;
+}
+.header_btns a{
+   padding: 0px;
+}
+.searchForm{
+    position:  relative !important;
+}
+.search_input_box{
+    border:0px !important;
+    width: 82% !important;
+}
+.search_input_box:focus{
+    border:0px !important;
+    outline:0 !important;
+}
+.formOuter{
+    /* justify-content: space-between; */
+}
+
+.mobilesearch_input_box{
+    border:0px !important; 
+    width: 89% !important;
+    min-width:89% !important;
+    max-width: 100% !important;
+}
+.mobilesearch_input_box:focus{
+    border:0px !important;
+    outline:0 !important;
+}
+
+.searchIcon{
+    /* width: 18%;
+    min-width: 18%; */
+    width: 40px;
+    min-width: 40px;
+}
+
+@media only screen and (min-width:1530px){
+  .search_input_box{
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width:577px) and (max-width:1199px){
+    .mobilesearch_input_box{
+        width: 92% !important;
+        min-width:92% !important;
+    }
+}
+
+@media only screen and (min-width:1920px){
+    .searchForm {
+        width: 100%;
+        max-width: 32%;
+    }
+}
+@media only screen and (min-width:1800px){
+    .searchForm {
+        width: 100%;
+        max-width:32%;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    .searchField{
+        border-right: 0px !important;
+        padding:8px 8px !important;
+    }
+}
+@media only screen and (max-width:1800px){
+    .searchForm {
+        width: 100%;
+        max-width:25%;
+    }
+}
+@media only screen and (max-width:1140px){
+    .link,
+    .btns .btn {
+        font-size:13px;
+    }
+    .linklist{
+        margin-right:10px !important;
+    }
+    .searchForm{
+        max-width:240px;
+    }
+    .deskHeaderlogo img{
+        height: 39px;
+    }
+    .linklist{
+        margin-right:4px;
+    }
+    .deskHeaderlogo{
+        width:40px;
+    }
+  
+}
+@media only screen and (max-width:1400px){
+    .searchForm{
+        max-width: 25%;
+    }
+    .links a{
+        padding:0px 10px !important;
+        font-size: 14px;
+    }
+    .btns .btn{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:991px){
+    .btns{
+        margin: 0px;
+    }
+    .searchForm{
+        max-width: 30%;
+    }
+    .links a{
+        font-size:11px;
+        padding:0px !important;
+    }
+    .searchForm{
+        max-width:100%;
+        /* max-width:240px; */
+    }
+    .deskHeaderlogo img{
+        height: 39px;
+    }
+    .linklist{
+        margin-right:4px;
+    }
+}
+@media only screen and (max-width:767px){
+    .link,
+    .btns .btn {
+        font-size:20px;
+        line-height: 20px;
+        padding-left:7px;
+        margin: 4px 0px;
+    }
+    .links a{
+        font-size: 20px;
+        padding: 0px !important;
+        line-height: 41px;
+        margin: 4px 0px;
+    }
+      /* .desktopHeader{
+        display: none !important;
+    } */
+    /* .mobileHeader{
+        display:block !important;
+    } */
+    .btns{
+        margin:3px 0px !important;
+    }
+    .btn{
+        background:#fff !important;
+    }
+    .searchForm{
+        max-width:100%;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    .link,
+    .btns .btn {
+        padding-left:0px;
+    }
+}
+
+
+@media only screen and (max-width:1199px){
+    .btns_my_account:hover{
+    color:#000 !important;
+    }
+    .desktopHeader{
+        display: none !important;
+    } 
+    .mobileHeader{
+        display:block !important;
+    }
+    .searchForm{
+        max-width: 100%;
+     }
+     .btn{
+        background:#fff !important;
+        padding-left:10px !important;
+    }
+    .btns_my_account{
+        font-size: 20px;
+        padding:0px 10px !important;
+        background:unset !important;
+        /* line-height: 41px;
+        margin: 4px 0px; */
+    }
+}
+
+@media (min-width:1200px){
+    .btn:hover{
+        color:#fff !important;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1431px){
+    .desktopHeader ul li a {
+        font-size: 12px !important;
+    }
+    .searchForm{
+        max-width: 20%;
+     }
+     .links a{
+        padding:0px 10px !important;
+     }
+     .btns {
+        margin: 0px 10px;
+    }
+    .btns_my_account{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px; 
+    }
+}
+
+@media only screen and (min-width:1432px) and (max-width:1529px){
+    .links a{
+        font-size: 14px;
+    }
+    .searchForm{
+        max-width: 20%;
+     }
+}
+
+@media only screen and (min-width:1432px){
+    /* .desktopHeader ul li a {
+        font-size: 12px !important;
+    } */
+}
+
+@media only screen and (max-width:1199px){
+    .links a{
+        font-size: 20px;
+        /* padding: 0px !important; */
+        line-height: 41px;
+        margin: 4px 0px;
+    }
+    
+    .link,
+    .btns .btn {
+        font-size:20px;
+        line-height: 20px;
+        padding-left:0px;
+        margin: 4px 0px;
+    }
+    .btns{
+        margin: 0px;
+    }
+}
+
+
+/* 29/11/2022 */
+
+.user_avatar_dropdown{
+    width:50px;
+    height: 50px;
+    background: unset;
+    border-radius: 50% !important;
+}
+
+.user_avatar_dropdown img{
+    border-radius: 50% !important;
+}
+
+.top_user_avatar_toggle{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: unset;
+    border: 0;
+}
+.top_user_avatar_img{
+
+}
+
+.top_user_avatar_toggle:hover{
+    background: unset !important;
+    border: 0;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+.top_user_avatar_toggle:focus{
+    background: unset !important;
+    border: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.top_user_avatar_toggle:active{
+    background: unset !important;
+    border: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.top_user_avatar_toggle:after{
+    border-top:.3em solid #0e0e0e;
+}
+
+.top_user_avatar_img.show .top_user_avatar_toggle{
+    background: unset !important;
+    background-color: unset !important;
+    border: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.show>.btn-secondary.dropdown-toggle{
+    background: unset !important;
+    background-color: unset !important;
+    border: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.btns_my_account{
+    background: #f2f3f5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 0px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btns_my_account:hover{
+background-color: #0001f9;
+color: #fff;
+}

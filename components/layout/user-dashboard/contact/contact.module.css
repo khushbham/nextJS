@@ -1,0 +1,53 @@
+.contact_header{
+    margin-bottom: 20px;
+    text-align:center ;
+}
+.contact_area{
+    background: #fff;
+    box-shadow: 0px 10px 60px 0px rgb(10 45 97 / 10%);
+    padding: 30px;
+    border-radius: 15px; 
+}
+.contact_submit{
+    background: #0000fe;
+    border-color: #0000fe;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 25px !important;
+}
+.contact_submit:hover{
+    background: #000000;
+    border-color: #000000;
+}
+.contact_submit:focus{
+    background: #0000fe;
+    border-color: #0000fe;
+    box-shadow: none !important;
+}
+.contact_area input:focus{
+    box-shadow: none !important;
+}
+.contact_area label{
+    font-weight: 600;
+}
+.user_phone_input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.user_phone_input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.user_phone_input{
+    -moz-appearance: textfield;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* input[type=number] {
+    -moz-appearance: textfield;
+} */

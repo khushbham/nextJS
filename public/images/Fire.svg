@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.111" height="73.826" viewBox="0 0 51.111 73.826">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_689" data-name="Group 689" transform="translate(-983 -875.84)">
+    <path id="Icon_ionic-ios-flame" data-name="Icon ionic-ios-flame" d="M27.06,3.375C32.206,27.262,7.7,26.783,7.876,50.829,8.018,70.528,28.888,77.2,33.519,77.2s23.922-4.188,25.4-26.371C60.175,31.947,44.416,13.916,27.06,3.375Z" transform="translate(975.125 872.465)" fill="url(#linear-gradient)"/>
+    <path id="Icon_ionic-ios-flame-2" data-name="Icon ionic-ios-flame" d="M32.825,3.375C28.8,22.043,47.957,21.669,47.818,40.462c-.111,15.395-16.421,20.61-20.041,20.61S9.081,57.8,7.93,40.462C6.945,25.7,19.261,11.613,32.825,3.375Z" transform="translate(980.709 885.53)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,248 @@
+.compass{
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .compassInner {
+    background-color: #fff;
+    border-radius: 100%;
+    position: relative;
+    border: 2px solid #000;
+    width:150px;
+    height:150px;
+  }
+  
+  .mainArrow {
+    height: 100%;
+    width: 30px;
+    height: 40px;
+    left: 67px;
+    position: absolute;
+    padding-top: 5px;
+    box-sizing: border-box;
+    transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+    -o-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    right: 12px;
+    top: 5px;
+  }
+  
+  .arrowUp{
+    transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+    -webkit-transform: rotate(0deg); /* Safari and Chrome */
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 60px solid #000;
+    position: relative;
+  }
+  
+  .arrowDown {
+    transform-origin: top center;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    width: 0;
+    transform: rotate(360deg);
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 50px solid #000;
+    position: relative;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition: 10s;
+  }
+  
+  .reflectBtn {
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: -25px;
+    cursor: pointer;
+    right: 0;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #099fff;
+    border-radius: 50%;
+    align-items: center;
+    bottom: 0;
+  }
+  .reflectBtn svg,
+   .sparkBtn svg{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .dareBtn {
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border: 0;
+    justify-content: center;
+    left: 0;
+  }
+  .dareBtn svg{
+    background-color: #6bd340;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px;
+    z-index: 999;
+  }
+  .leapBtn {
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    position: absolute;
+    right: -27px;
+    top: 0;
+    cursor: pointer;
+    bottom: 0px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .sparkBtn {
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    right: 0;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #f98592;
+    border-radius: 50%;
+    align-items: center;
+    bottom: -25px;
+   }
+   .focusBtn svg{
+    background: #f2f33b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px;
+     }
+    .leapBtn svg{
+      background:#cc0033;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 7px;
+    }
+  .focusBtn {
+    font-size: 16px;
+    font-family: "Lobster Two", cursive;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    bottom: 0;
+    top: 0;
+    left: -30px;
+  }
+  .spinReflect {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transition: 10s;
+  }
+  .spinDare {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transition: 10s;
+  }
+  .spinLeap {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition: 10s;
+  }
+  
+  
+  .spinSpark {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transition: 10s;
+  }
+  .spinFocus {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transition: 1s;
+  }
+  
+  .downSpinleap{
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transition: 1s;
+    }
+  .downSpinDare{
+      transform: rotate(270deg);
+      -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transition: 5s;
+    }
+  .downSpinReflect{
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transition: 5s;
+  }
+  .downSpinSpark {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transition: 10s;
+  }
+  
+  /* .btn:hover {
+    cursor: pointer;
+  } */
+  

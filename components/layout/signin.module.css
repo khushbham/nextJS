@@ -1,0 +1,41 @@
+.signinform{
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 25px 30px;
+}
+.signinform h3{
+font-weight: 800;
+font-family: "Poppins";
+}
+.signinform input[type=text] {
+    border: 0px !important;
+    height: 50px;
+}
+.signinform input[type=password]  {
+    border: 0px !important;
+    height: 50px;
+}
+.signincardbody{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.signinbutton{
+    background: #313131 !important;
+    margin-top: 15px;
+    padding: 8px 20px;
+    color: #fff !important;
+}
+.signinbutton:hover {
+    background: #0001f9 !important;
+}
+.textright {
+    text-align: right;
+}
+.textright a{
+   color:#323232 !important;
+   text-decoration: none;
+}
+.textright a:hover{
+   color: #0001f9 !important;
+   text-decoration: underline;
+}

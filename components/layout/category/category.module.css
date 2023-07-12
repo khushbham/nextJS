@@ -1,0 +1,310 @@
+.categoryWrap{
+    margin-bottom: 4rem;
+}
+.categoryWrap p{
+    font-family: "Poppins";
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.catgeoryBanner{
+    background-image:url('/images/category-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem 0px;
+    background-position: center;
+}
+.technologyLinks{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ebeb4d;
+    margin: b;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}
+.technologyLinks:after{
+    position: absolute;
+    top: 14px;
+    background-color: #ebeb4d;
+    content: '';
+    width: 20px;
+    height: 2px;
+    right: -25px;
+}
+.catgeoryBanner h2{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.catgeoryBanner p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    margin: 0px;
+    font-family: "Poppins";
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.exploreBtn{
+    background-color:#0000fe;
+    font-size: 17px;
+    line-height: 20px;
+    color:#fff;
+    padding:18px 30px;
+    display: inline-block;
+    margin-top:30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.exploreBtn:hover{
+    color:#fff;
+}
+.exploreTrendsSec img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.exploreTrendsSec {
+    padding: 50px 0px;
+}
+.trendsBgImage{
+    background-image: url(/images/trends-bgg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+    background-position: top right;
+    padding: 0px;
+
+}
+.trendsHeading{
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+    line-height: 40px;
+}
+.TrendSubHeading{
+    font-size: 17px;
+    color: #333333;
+    line-height: 28px;
+    margin: 16px 0px;
+}
+.exploreTrends{
+    background-color: #0000fe;
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.exploreTrends:hover{
+    color:#fff;
+}
+.trendsContent{
+    padding:0px 20px;
+}
+.mobileTrendsSec img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.mobileTrendsSec{
+    background-color:#000000;
+    padding:20px 0px;
+}
+.imageWrapper img{
+    width:100%;
+    object-position: center;
+    height:100%;
+    object-fit:cover;
+}
+.imageWrapper {
+    margin-bottom: -8rem;
+}
+.mobileTrendsSec h3,
+.mobileTrendsSec p{
+    color:#fff;
+}
+.scienceTrendsSec img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.scienceTrendsSec {
+    padding: 60px 0px;
+    position: relative;
+}
+.scienceTrendsSec {
+    padding: 6rem 0px 40px 0px;
+    position: relative;
+}
+.scienceTrendsSec:before {
+    content: '';
+    position: absolute;
+    background: url(/images/sciencetrendsbg.png);
+    right: 0;
+    background-size: cover;
+    width: 250px;
+    height: 315px;
+    content: '';
+    top: -54px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.gameTrendsSec img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.gameTrendsWrap{
+    background: #ededed;
+}
+.trendsWrap{
+    padding: 10px 40px;
+}
+.TrendsOuter{
+    padding-right: 30px;
+}
+.multimediaSec{
+    background-color: #0000fe;
+    /* padding: 50px 0px; */
+    margin: 50px 0px 4rem 0px;
+}
+.multimediaSec img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: top;
+}
+.trendhead{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 50px;
+}
+.multimediaWrap p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+.exploreTrendsBtnn {
+    font-size: 17px;
+    background: #fff;
+    padding: 13px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #0000fe;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.exploreTrendsBtnn:hover{
+    color: #0000fe;
+}
+.imgaeOuterWrap{
+    height: 555px;
+    margin-bottom: -6rem;
+}
+.trendsMobdirection{
+    align-items:center;
+}
+@media only screen and (min-width:1920px){
+    .multimediaWrap p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .multimediaSec{
+        margin: 50px 0px 8rem 0px;
+    }
+    .imgaeOuterWrap{
+      height:600px;
+    }
+    .catgeoryBanner h2{
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+    .catgeoryBanner p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .exploreBtn{
+        background-color: #0000fe;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 24px 30px;
+    }
+    .trendsWrap{
+        padding-right: 30px;
+    }
+    .category_exploreTrends__vm60f {
+        font-size: 22px;
+        line-height: 25px;
+        padding: 21px 45px;
+    }
+}
+@media only screen and (max-width:991px){
+    .trendsWrap {
+        padding: 30px 40px;
+    }
+    .TrendsWrap{
+        padding: 20px 0px;
+    }
+    .TrendSubHeading {
+        font-size: 15px;
+        color: #333333;
+        line-height: 23px;
+        margin: 4px 0px;
+    }
+    .trendsWrap {
+        padding: 18px 15px;
+    }
+    .gameTrendsWrap{
+        padding:20px 0px;
+    }
+}
+@media only screen and (max-width:767px){
+    .trendsWrap{
+        padding-bottom: 30px;
+    }
+    .trendsMobdirection{
+        flex-direction: column-reverse;
+    }
+    .imgaeOuterWrap{
+        margin-bottom: 0px;
+    }
+    .multimediaWrap{
+       padding-top:20px;
+    }
+    .TrendsOuter,
+    .trendsContent{
+        padding-bottom:20px;
+    }
+    .TrendsOuter{
+        padding-left:30px;
+    }
+    .catgeoryBanner{
+        padding:5rem 0px;
+    }
+}
+@media only screen and (max-width:480px){
+    .TrendsOuter{
+        padding-left:10px;
+        padding-right:10px;
+    }
+}

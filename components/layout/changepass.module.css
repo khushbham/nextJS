@@ -1,0 +1,27 @@
+.changepassform{
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 25px 30px;
+}
+
+.changepassform h3{
+    font-weight: 800;
+    font-family: "Poppins";
+}
+.changepassform input[type=text] {
+        border: 0px !important;
+        height: 50px;
+}
+.changepassbutton{
+    background: #313131 !important;
+    margin-top: 15px;
+    padding: 8px 20px;
+    color: #fff !important;
+}
+.changepassbutton:hover {
+    background: #0001f9 !important;
+}
+.changepasscardbody{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

@@ -1,0 +1,59 @@
+.formhead{
+    font-size: 32px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.formInnner{
+    padding:40px 0px;
+}
+.fields{
+    border:0px !important;
+    border-bottom: 1px solid #666666 !important;
+    font-size: 16px;
+    line-height: 40px;
+    color: #666666;
+    font-weight: 400;
+    font-family: "Poppins";
+    border-radius:0px;
+}
+.fields:hover,
+.fields:focus{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none !important;
+    box-shadow: none;
+    border-bottom: 1px solid #0000fe 
+    !important;
+}
+.postBtn,
+.postBtn:hover{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    background: #0000fe;
+    border-color: #0000fe;
+    padding: 14px 40px;
+    display: block;
+    text-transform: uppercase;
+}
+.formWrapper{
+    padding:50px 0px;
+}
+.stateHead{
+    font-size: 24px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+@media only screen and (max-width:480px){
+    .formhead{
+        font-size:28px;
+    }
+    .formInnner{
+        padding:20px 0px;
+    }
+}

@@ -1,0 +1,23 @@
+.sitemapwrapper{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    background: #f7f7f7;
+}
+.mainwhitewrapper{
+    background: #fff;
+    padding: 20px;
+}
+.sitemap_links_area{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.bold_txt_head {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.sitemap_links_area a{
+    color: #333 !important;
+    text-decoration: none;
+}

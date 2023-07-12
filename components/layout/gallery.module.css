@@ -1,0 +1,147 @@
+.cardHead{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin-bottom:0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.subheading{
+    font-size: 15px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+.icontext{
+    font-size: 15px;
+    color: #868686;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-right:8px;
+    display: flex;
+    align-items:center;
+}
+.categoryList{
+    margin: 0px;
+    padding-left: 0px;
+}
+.categoryList li{
+    display: inline-block;
+    border-right: 1px solid #d7d7d7;
+    padding: 0px 6px;
+    margin: 4px 0px;
+}
+.categoryList li:first-child{
+    padding-left:0px;
+}
+.categoryList li:last-child{
+    border-right:0px;
+}
+.icontext:hover{
+    color: #ff2900cc;
+}
+.fireText p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0px;
+    color: #fff;
+}
+.fireText{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fireIcon{
+    width: 34px;
+    height: 50px;
+    position: absolute;
+    top:7px;
+    right:6px;
+}
+.fireIcon img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.bookmarkIcon{
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
+.bookmarkIcon a:hover{
+    background-color: #868686;
+}
+.iconstext{
+    justify-content: space-between  !important;
+}
+.bookmarkIcon a{
+    width: 28px;
+    height: 30px;
+    background: #868686ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bookmarkIcon svg{
+    color:#fff;
+    font-size: 20px;
+}
+.imageOuter img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius:5px;
+}
+.cradWrap{
+    border:0px !important;
+    cursor:pointer;
+    display: block;
+    height: 100%;
+}
+.GallerySec{
+    padding: 60px 0px;
+}
+.icontext svg{
+    margin-right: 3px;
+}
+.imageOuter{
+    position: relative;
+}
+@media only screen and (min-width:1800px){
+    .cardHead{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .subheading{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .icontext{
+        font-size: 20px;
+    }
+}
+/* @media only screen and (max-width:767px){
+    .GallerySec{
+        margin:10px 0px;
+    }
+    } */
+@media only screen and (max-width:480px){
+    .cardHead{
+        font-size:14px;
+    }
+    .cradWrap{
+        margin-bottom:5px;
+    }
+}

@@ -1,0 +1,122 @@
+.footerArea{
+    background-color: #2e2e2e;
+    padding: 60px 10px;
+}
+.FootHead{
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin-bottom: 14px;
+}
+.footLink{
+    font-size: 15px;
+    line-height: 30px;
+    color: #eceaea  !important;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 0px !important;
+}
+.footLink:hover{
+   color: #0000fe !important;
+}
+.subheading{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 32px 0px;
+}
+.copyrightSec{
+    background:#272727;
+    padding: 18px 0px;
+}
+p.copyrightText,
+.sitelink,
+.sitelink:hover
+{
+    font-size: 15px;
+    line-height: 30px;
+    color: #d3d3d3;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+    text-align: center;
+}
+.socialLink{
+    margin-right:10px !important;
+    color:#ffffff;
+    padding: 0px !important;
+}
+.socialLink,
+.socialLink:hover{
+    margin-right:10px !important;
+    color:#ffffff !important;
+}
+
+.footer_sticky_cntnt p {
+    margin-bottom: 0px !important;
+}
+.sticky_footer_row{
+align-items:center;
+}
+.cookie_bottom_bar{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    z-index: 99;
+}
+.footer_btns input {
+    width: 100% !important;
+    background-color: #0000fe !important;
+    border-color: #0000fe !important;
+}
+.footer_btns input:focus {
+    box-shadow: unset !important;
+}
+@media only screen and (min-width:1800px){
+    .footLink{
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .FootHead{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .subheading{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width:767px){
+    .copyrightSec{
+        margin-bottom:40px;
+    }
+    .cookie_bottom_bar {
+        bottom: 52px !important;
+    }
+}
+@media only screen and (max-width:480px){
+    .footLink{
+        font-size:14px;
+    }
+    .footMenu{
+        margin:10px 0px;
+    }
+    .subheading{
+        font-size: 14px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+        margin: 10px 0px 20px;
+    }
+    .copyrightText{
+        font-size: 14px  !important;
+        line-height: 25px !important;
+    }
+}
